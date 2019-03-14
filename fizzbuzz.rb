@@ -1,11 +1,6 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 
-2.2.3 :001 > require './fizzbuzz.rb'
- => true
-2.2.3 :002 > fizzbuzz
- => nil
- 
 ef fizzbuzz(int)
   if int % 15 == 0
     return "FizzBuzz"
